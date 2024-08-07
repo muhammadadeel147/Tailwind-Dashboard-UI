@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="min-h-screen w-screen bg-black flex text-white justify-between p-3 gap-1"
+    >
+      <div class="flex-initial w-64 p-12">
+        <div>
+          <img src="./images/profile.png" alt="" class="rounded-lg" />
+          <div
+            class="bg-red-600 w-5 h-5 rounded-full text-center text-xs relative -top-20 left-16"
+          >
+            4
+          </div>
+          <h3 class="font-semibold text-3xl">Samantha</h3>
+          <p class="text-base font-normal text-gray-400">samantha@email.com</p>
+        </div>
+        <div class="mt-20">
+          <ul class="text-neutral-400 font-semibold text-xl cursor-pointer">
+            <li class="pb-3">Dashboard</li>
+            <li class="text-white pb-3">Expenses</li>
+            <li class="pb-3">Wallets</li>
+            <li class="pb-3">Summary</li>
+            <li class="pb-3">Accounts</li>
+            <li>Settings</li>
+          </ul>
+        </div>
+      </div>
+      <div class="bg-white text-black flex-1 rounded-2xl">
+        <div class="flex justify-between gap-1">
+          <div class="flex-1 px-24 pt-8">
+            <div class="flex justify-between">
+              <h1 class="text-4xl font-semibold">Expenses</h1>
+              <div class="flex gap-2">
+                <img src="./images//userpic.png" alt="" />
+                <img src="./images//plus.png" alt="" />
+              </div>
+            </div>
+            <p class="pt-2 text-gray-400">01 - 25 March, 2020</p>
+
+            <div class="flex gap-1 items-end py-3">
+              <div class="bg-sky-200 w-8 h-12"></div>
+              <div class="bg-sky-200 w-8 h-8"></div>
+              <div class="bg-sky-200 w-8 h-28"></div>
+              <div class="bg-sky-200 w-8 h-20"></div>
+              <div class="bg-sky-200 w-8 h-6"></div>
+              <div class="bg-sky-200 w-8 h-24"></div>
+              <div class="bg-sky-200 w-8 h-12"></div>
+              <div class="bg-sky-200 w-8 h-8"></div>
+              <div class="bg-sky-200 w-8 h-12"></div>
+              <div class="bg-sky-200 w-8 h-12"></div>
+              <div class="bg-sky-200 w-8 h-28"></div>
+              <div class="bg-sky-200 w-8 h-24"></div>
+              <div class="bg-sky-200 w-8 h-20"></div>
+              <div class="bg-sky-200 w-8 h-20"></div>
+            </div>
+            <div>
+              <div class="flex justify-between items-center">
+                <div><h6 class="text-lg font-medium">Today</h6></div>
+                <div class="flex">
+                  <div
+                    class="w-2 h-2 bg-black rounded-full bg-zinc-300 mr-1"
+                  ></div>
+                  <div
+                    class="w-2 h-2 bg-black rounded-full bg-zinc-300 mr-1"
+                  ></div>
+                  <div class="w-2 h-2 bg-black rounded-full bg-zinc-300"></div>
+                </div>
+              </div>
+              <hr />
+              <div>
+                <div class="flex justify-between items-center mt-2">
+                  <div class="flex">
+                    <div
+                      class="bg-sky-500 w-10 h-10 rounded-full mr-3 flex flex-col items-center justify-center"
+                    >
+                      <img src="./images/grocery.png" alt="" />
+                    </div>
+                    <div>
+                      <p class="font-medium text-base">Grocery</p>
+                      <p class="font-normal text-sm text-gray-400">
+                        5:12 pm • Belanja di pasar
+                      </p>
+                    </div>
+                  </div>
+                  <div class="font-semibold text-base">-326.800</div>
+                </div>
+                <div class="flex justify-between items-center mt-2">
+                  <div class="flex">
+                    <div
+                      class="bg-violet-600 w-10 h-10 rounded-full mr-3 flex flex-col items-center justify-center"
+                    >
+                      <img src="./images/transport.png" alt="" />
+                    </div>
+                    <div>
+                      <p class="font-medium text-base">Transportation</p>
+                      <p class="font-normal text-sm text-gray-400">
+                        5:12 pm • Naik bus umum
+                      </p>
+                    </div>
+                  </div>
+                  <div class="font-semibold text-base">-15.000</div>
+                </div>
+                <div class="flex justify-between items-center mt-2">
+                  <div class="flex">
+                    <div
+                      class="bg-orange-500 w-10 h-10 rounded-full mr-3 flex flex-col items-center justify-center"
+                    >
+                      <img src="./images/house.png" alt="" />
+                    </div>
+                    <div>
+                      <p class="font-medium text-base">Housing</p>
+                      <p class="font-normal text-sm text-gray-400">
+                        5:12 pm • Bayar Listrik
+                      </p>
+                    </div>
+                  </div>
+                  <div class="font-semibold text-base">-185.750</div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="flex justify-between items-center mt-6">
+                <div>
+                  <h6 class="text-lg font-medium">Monday, 23 March 2020</h6>
+                </div>
+                <div class="flex">
+                  <div
+                    class="w-2 h-2 bg-black rounded-full bg-zinc-300 mr-1"
+                  ></div>
+                  <div
+                    class="w-2 h-2 bg-black rounded-full bg-zinc-300 mr-1"
+                  ></div>
+                  <div class="w-2 h-2 bg-black rounded-full bg-zinc-300"></div>
+                </div>
+              </div>
+              <hr />
+              <div>
+                <div class="flex justify-between items-center mt-2">
+                  <div class="flex">
+                    <div
+                      class="bg-red-600 w-10 h-10 rounded-full mr-3 flex flex-col items-center justify-center"
+                    >
+                      <img src="./images/food.png" alt="" />
+                    </div>
+                    <div>
+                      <p class="font-medium text-base">Food and Drink</p>
+                      <p class="font-normal text-sm text-gray-400">
+                        5:12 pm • Belanja di pasar
+                      </p>
+                    </div>
+                  </div>
+                  <div class="font-semibold text-base">-156.000</div>
+                </div>
+                <div class="flex justify-between items-center mt-2">
+                  <div class="flex">
+                    <div
+                      class="bg-lime-600 w-10 h-10 rounded-full mr-3 flex flex-col items-center justify-center"
+                    >
+                      <img src="./images/entertainment.png" alt="" />
+                    </div>
+                    <div>
+                      <p class="font-medium text-base">Entertainment</p>
+                      <p class="font-normal text-sm text-gray-400">
+                        5:12 pm • Naik bus umum
+                      </p>
+                    </div>
+                  </div>
+                  <div class="font-semibold text-base">-35.200</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex-initial w-96 bg-slate-100 rounded-r-2xl pt-8 px-10">
+            <h6 class="text-xl font-semibold">Where your money go?</h6>
+           
+           <div>
+            <div class="flex justify-between pt-4">
+              <p class="font-medium text-sm">Food and Drinks</p>
+              <p class="font-normal text-gray-600 text-sm">872.400</p>
+            </div>
+            <div class="bg-gray-400 w-auto h-2 mt-2 rounded-full">
+              <div class="bg-lime-700 w-24 h-2 mt-2 rounded-full"></div>
+            </div>
+          </div> 
+          <div>
+            <div class="flex justify-between pt-4">
+              <p class="font-medium text-sm">Shopping</p>
+              <p class="font-normal text-gray-600 text-sm">1.378.200</p>
+            </div>
+            <div class="bg-gray-400 w-auto h-2 mt-2 rounded-full">
+              <div class="bg-lime-700 w-44 h-2 mt-2 rounded-full"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between pt-4">
+              <p class="font-medium text-sm">Housing</p>
+              <p class="font-normal text-gray-600 text-sm">928.500</p>
+            </div>
+            <div class="bg-gray-400 w-auto h-2 mt-2 rounded-full">
+              <div class="bg-lime-700 w-32 h-2 mt-2 rounded-full"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between pt-4">
+              <p class="font-medium text-sm">Transportation</p>
+              <p class="font-normal text-gray-600 text-sm">420.700</p>
+            </div>
+            <div class="bg-gray-400 w-auto h-2 mt-2 rounded-full">
+              <div class="bg-lime-700 w-20 h-2 mt-2 rounded-full"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between pt-4">
+              <p class="font-medium text-sm">Vehicle</p>
+              <p class="font-normal text-gray-600 text-sm">520.000</p>
+            </div>
+            <div class="bg-gray-400 w-auto h-2 mt-2 rounded-full">
+              <div class="bg-lime-600 w-40 h-2 mt-2 rounded-full"></div>
+            </div>
+          </div>
+
+
+          <div class="mt-12 bg-neutral-300 w-auto h-auto rounded-2xl px-6">
+            <div class="flex justify-between  relative bottom-5">
+<img src="./images/box.png" alt="">
+<img src="./images/flower.png" alt="">
+            </div>
+            <p class="font-semibold text-base">Save more money</p>
+            <p class="text-gray-600 text-xs font-normal">eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+
+            <button class="text-white bg-black rounded-xl py-3 my-2 w-full">VIEW TIPS</button>
+          </div>
+          <div>
+       
+           
+          
+      </div>
+    </div>
+  </body>
+</html>
